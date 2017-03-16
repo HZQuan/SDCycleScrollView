@@ -32,6 +32,7 @@
 
 #import "SDCollectionViewCell.h"
 #import "UIView+SDExtension.h"
+#import "CustomImageVIew.h"
 
 @implementation SDCollectionViewCell
 {
@@ -69,7 +70,7 @@
 
 - (void)setupImageView
 {
-    UIImageView *imageView = [[UIImageView alloc] init];
+    CustomImageVIew *imageView = [[CustomImageVIew alloc] init];
     _imageView = imageView;
     [self.contentView addSubview:imageView];
 }
