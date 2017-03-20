@@ -60,7 +60,7 @@
 
 - (void)drawPathAnimation:(NSTimer *)timer
 {
-    self.anglePer += 0.3f;
+    self.anglePer += 0.03f;
     
     if (self.anglePer >= 1) {
         self.anglePer = 1;
